@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro do Facebook</title>
+</head>
+
+<body>
+    <h1>Cadastre-se</h1>
+    <h3>É fácil e rápido</h3>
+
+    <form method="post" action="index.html" enctype="multipart/form-data">
+        <input type="text" name="nome" placeholder="Nome">
+        <input type="text" name="Sobrenome" placeholder="Sobrenome"> <br>
+        <input type="text" name="Celular-ou-email" placeholder="Celular ou email"><br>
+        <input type="password" name="senha" id="senha" placeholder="Nova senha"><br><br>
+
+        <label for="">Data de Nascimento</label><br>
+        <select name="dia" id="dia">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <select name="mes" id="mes">
+            <option value="jan">Jan</option>
+            <option value="fev">Fev</option>
+            <option value="mar">Mar</option>
+            <option value="abr">Abr</option>
+            <option value="mai">Mai</option>
+        </select>
+        <select name="ano" id="ano">
+            <option value="1999">1999</option>
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+            <option value="2003">2003</option>
+            <option value="2004">2004</option>
+        </select> 
+        <br><br>
+
+        <label for="">Gênero</label><br>
+        <label for="feminino">Feminino</label>
+        <input type="radio" name="genero" id="feminino" value="feminino" checked>
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" id="masculino" value="masculino">
+        <label for="personalizado">Personalizado</label>
+        <input type="radio" name="genero" id="personalizado" value="personalizado">
+        <br><br>
+
+        <label for="foto-perfil">Adicione sua foto</label> <br>
+        <input type="file" name="foto-perfil" id="foto-perfil">
+        <br><br>
+        <input type="submit" value="Cadastre-se">
+    </form>
+
+</body>
+
+</html>

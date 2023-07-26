@@ -1,0 +1,14 @@
+h1{
+    margin: 21px 100px;
+    background-color: royalblue;
+    padding: 20px;
+    border: 2px solid;
+    text-align: center;
+}
+
+p{
+    margin: 21px 100px;
+    background-color: seashell;
+    padding: 10px;
+    border: 1.5px solid;
+}
